@@ -55,7 +55,7 @@ var getUserRepos = function(user) {
         .catch(function(error) {
         alert("Unable to connect to GitHub");
     });
-};
+}
 
 var getFeaturedRepos = function(language) {
   // format the github api url
